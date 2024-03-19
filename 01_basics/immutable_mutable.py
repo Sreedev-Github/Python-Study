@@ -31,3 +31,8 @@ print(y)
 # Pointing y to the same value means now both of the variable are not poiting to the same memory, then we redeclare the value of x to 15 so now the new memory is created for 15
 # And now the x is pointing towards the memory which has the value 1 in it. But the value 10 won't be deleted by the python garbage collector as the variable y is still pointing at it
 # So this way the values have been changed for the individual variable but the first meomory was never deleted
+
+
+# There more in depth visual study done on this which can't be taken down as notes so please go and check these videos
+# https://www.youtube.com/watch?v=MDZ4y-GgZ8k&list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s&index=5
+# https://www.youtube.com/watch?v=brp5aiuWfso&list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s&index=7
